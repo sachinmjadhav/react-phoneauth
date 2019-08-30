@@ -14,7 +14,7 @@ const Home = props => {
   return (
     <div>
       <h2>You are Logged in</h2>
-      <button onClick={signOut}>Sign out</button>
+      <button onClick={signOut} className="submit">Sign out</button>
     </div>
   );
 };

@@ -67,6 +67,7 @@ const Login = props => {
     <form onSubmit={submitCode}>
       <input
         type="text"
+        className="input"
         placeholder="Enter code sent to your phone number"
         onChange={e => setCode(e.target.value)}
         value={code}
