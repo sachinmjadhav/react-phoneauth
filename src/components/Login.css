@@ -1,0 +1,29 @@
+.login {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.label {
+  padding: 10px;
+}
+
+.input {
+  margin: 1rem;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  width: 10rem;
+  box-shadow: 1px 1px 5px black
+}
+.input:focus {
+  outline: none;
+}
+
+.submit {
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin: 1rem;
+}
